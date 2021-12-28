@@ -39,7 +39,7 @@ jobs:
           /usr/share/dotnet \
           /etc/mysql \
           /etc/php
-        sudo -E apt-get -y purge \
+        sudo -E apt-get -y -f purge \
           azure-cli \
           ghc* \
           zulu* \
